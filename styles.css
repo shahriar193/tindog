@@ -1,0 +1,169 @@
+#title {
+  background-color: #ff4c68;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-weight: 900;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: 0 auto .6rem auto;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+/* download button */
+.Download {
+  margin-right: 10px;
+}
+
+.container-fluid {
+  padding: 0 15% 0 15%;
+}
+
+/* navigation */
+.navbar {
+  padding-top: 0;
+  padding-bottom: 60px;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-size: 2.6rem;
+  font-family: Ubuntu;
+}
+
+.nav-item {
+  font-family: Montserrat;
+  font-size: 1.3rem;
+  padding: 0 15px;
+}
+
+/* rotating image */
+.rotate-img {
+  width: 65%;
+  padding-left: 12%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* feature section */
+.feature-icon {
+  color: #ef8172;
+  size: 200%;
+  padding-bottom: 20px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+#features {
+  background-color: white;
+  padding: 7% 7%;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-row {
+  padding: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.feature-items {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.feature-itema p {
+  color: #8f8f8f;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#testimonials h2 {
+  color: white;
+}
+
+.testimonies {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 10px 20px 50px;
+}
+
+.press-image {
+  width: 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 50px 50px 70px;
+  text-align: center;
+}
+
+.prices {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotate-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+  /* cta section */
+  #cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 2% 5% 3%;
+  }
+  /* footer section */
+  #footer{
+    padding: 4%;
+    text-align: center;
+
+  }
+.footer-icons{
+  padding: 20px 10px;
+}
+#footer p{
+  font-size: 0.75;
+}
